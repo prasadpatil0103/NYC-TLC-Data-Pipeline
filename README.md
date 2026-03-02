@@ -60,7 +60,7 @@ predictions served via REST API.
 - `POST /predict/tip` — tip prediction + recommended tip amount
 
 ### 7. Power BI Dashboard
-/workspaces/NYC-TLC-Data-Pipeline/dashboard/dashboard.png
+!(/workspaces/NYC-TLC-Data-Pipeline/dashboard/dashboard.png)
 
 ## 🚀 How to Run
 
