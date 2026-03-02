@@ -60,7 +60,7 @@ predictions served via REST API.
 - `POST /predict/tip` — tip prediction + recommended tip amount
 
 ### 7. Power BI Dashboard
-[Dashboard](/workspaces/NYC-TLC-Data-Pipeline/dashboard/dashboard.png)
+![Dashboard](dashboard/dashboard.png)
 
 ## 🚀 How to Run
 
@@ -80,4 +80,4 @@ uvicorn main:app --reload --port 8000
 ```
 
 ### API Docs
-[API Page](/workspaces/NYC-TLC-Data-Pipeline/dashboard/api.png)
+![API Page](dashboard/api.png)
