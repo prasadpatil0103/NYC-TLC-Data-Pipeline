@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: staging
+    database: NYC_TLC
+    schema: STAGING
+    tables:
+      - name: RAW_TRIPS
+        description: "Raw NYC TLC yellow taxi trip records"
+        columns:
+          - name: PICKUP_DATETIME
+            tests: [not_null]
+          - name: TOTAL_AMOUNT
+            tests: [not_null]
+          - name: TRIP_DISTANCE
+            tests: [not_null]

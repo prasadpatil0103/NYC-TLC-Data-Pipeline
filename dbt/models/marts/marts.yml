@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: fact_trips
+    description: "One row per NYC taxi trip with all metrics"
+    columns:
+      - name: trip_id
+        tests: [unique, not_null]
+      - name: total_amount
+        tests: [not_null]
+      - name: trip_distance
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 500
+
+  - name: dim_time
+    description: "Time dimension for trip analysis"
+    columns:
+      - name: trip_date
+        tests: [not_null]
+
+  - name: dim_location
+    description: "Location dimension for zone analysis"
+    columns:
+      - name: location_id
+        tests: [not_null]
