@@ -8,7 +8,7 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-REST_API-009688)
 
 ## 🏗️ Architecture
-![Dashboard](dashboard/architecture.jpeg)
+![Dashboard](dashboard/architecture.jpg)
 
 ## 📋 Project Overview
 End-to-end cloud data pipeline processing **5.7M NYC Yellow Taxi trips**
