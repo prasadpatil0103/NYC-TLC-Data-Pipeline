@@ -8,7 +8,7 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-REST_API-009688)
 
 ## 🏗️ Architecture
-[INSERT ARCHITECTURE DIAGRAM HERE]
+![Dashboard](dashboard/architecture.jpeg)
 
 ## 📋 Project Overview
 End-to-end cloud data pipeline processing **5.7M NYC Yellow Taxi trips**
@@ -60,7 +60,7 @@ predictions served via REST API.
 - `POST /predict/tip` — tip prediction + recommended tip amount
 
 ### 7. Power BI Dashboard
-/workspaces/NYC-TLC-Data-Pipeline/dashboard/dashboard.png
+![Dashboard](dashboard/dashboard.png)
 
 ## 🚀 How to Run
 
@@ -80,4 +80,4 @@ uvicorn main:app --reload --port 8000
 ```
 
 ### API Docs
-/workspaces/NYC-TLC-Data-Pipeline/dashboard/api.png
+![API Page](dashboard/api.png)
